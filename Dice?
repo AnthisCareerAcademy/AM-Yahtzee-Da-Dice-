@@ -1,0 +1,8 @@
+import random
+
+def da_Dice():
+    for dice in range(1, 6):
+        dice = random.randint(1, 6)
+        print(dice)
+
+da_Dice()
